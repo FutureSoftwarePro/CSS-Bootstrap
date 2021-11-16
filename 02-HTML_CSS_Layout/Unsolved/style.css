@@ -1,12 +1,18 @@
 header{
+    position:fixed;
+    top: 0;
+    height: 75px;
+    width: 100%;
     background-color:#333333;
+    
+    
 }
 
 
 body{
-    margin: 0;
+    margin-top: 100px;
     padding: 0;
-    background-color: efee7;
+    background-color: #efeee7;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333333;
     
@@ -15,6 +21,8 @@ body{
 h1{
     color: #eee;
     font: size 28px;
+    margin-top: 20px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -23,20 +31,31 @@ h2{
 
 }
 
-.container{
-    width: 1024px;
-    margin: 0 auto;
-    
+#bio-image{
+    margin: 7px;
+    float: left;
+
 }
 
 #main-bio{
     width: 70%;
+    float: left;
+}
+
+.container{
+    margin: 0 auto;
     
 }
 
-p{
-    width:50%;
-    
 
+
+#contact-info{
+    width: 30%;
+    float: left;
+
+}
+
+a{
+    color: #d21034;
 }
 

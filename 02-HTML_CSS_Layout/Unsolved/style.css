@@ -26,9 +26,19 @@ h1{
     text-align: center;
 }
 
+.container{
+    margin: 0 auto;
+    
+}
+
 h2{
     font: size 24px;
 
+}
+
+#main-bio{
+    width: 75%;
+    float: left;
 }
 
 #bio-image{
@@ -37,22 +47,14 @@ h2{
 
 }
 
-#main-bio{
-    width: 70%;
-    float: left;
+p{
+    width: 65%;
 }
-
-.container{
-    margin: 0 auto;
-    
-}
-
-
 
 #contact-info{
     width: 30%;
     float: left;
-
+    
 }
 
 a{
